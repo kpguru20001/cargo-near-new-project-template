@@ -2,6 +2,16 @@
   "name": "NEAR Devcontainer Rust",
 
   "image": "ghcr.io/near/near-devcontainer:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dustypomerleau.rust-syntax",
+        "fill-labs.dependi",
+        "tamasfe.even-better-toml",
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  },
 
   // Uncomment and modify the following lines if necessary
   // "forwardPorts": [8000],
